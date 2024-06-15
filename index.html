@@ -24,11 +24,24 @@
             margin: auto;
         }
         .carousel-container {
-            max-width: 300px; /* Fixed width for the column */
+            max-width: 200px; /* Fixed width for the column */
         }
         /* Fix height of table rows */
         .table tbody tr {
             height: 220px; /* Adjust the height as needed */
+        }
+        /* Reduce image size for mobile */
+        @media (max-width: 767.98px) {
+            body{
+                font-size: x-small;
+            }
+                    /* Fix height of table rows */
+        .table tbody tr {
+            height: 22px; /* Adjust the height as needed */
+        }
+            .carousel-item img {
+                height: 60px;
+            }
         }
     </style>
 </head>
